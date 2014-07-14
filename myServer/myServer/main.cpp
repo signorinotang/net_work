@@ -12,6 +12,16 @@
 #include <arpa/inet.h>
 #include <string.h>
 
+#include <unistd.h>
+
+#define BACKLOG 5 //
+#define CONCURRENT_MAX 8
+#define SERVER_PORT 11332
+#define BUFFER_SIZE 1024
+#define QUIT_CMD ".quit"
+
+int client_fds[CONCURRENT_MAX];
+
 
 int main(int argc, const char * argv[])
 {
