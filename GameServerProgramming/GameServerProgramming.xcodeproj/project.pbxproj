@@ -29,6 +29,7 @@
 		AF52FB7A199A3CA8002C8E5D /* type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = type.h; sourceTree = "<group>"; };
 		AF52FB7E199A4A45002C8E5D /* Stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stream.cpp; sourceTree = "<group>"; };
 		AF52FB7F199A4A45002C8E5D /* Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stream.h; sourceTree = "<group>"; };
+		AF52FB81199A5788002C8E5D /* CircularQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularQueue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +66,7 @@
 				AF52FB7F199A4A45002C8E5D /* Stream.h */,
 				AF52FB6E199A3AF3002C8E5D /* main.cpp */,
 				AF52FB7A199A3CA8002C8E5D /* type.h */,
+				AF52FB81199A5788002C8E5D /* CircularQueue.h */,
 			);
 			path = GameServerProgramming;
 			sourceTree = "<group>";
