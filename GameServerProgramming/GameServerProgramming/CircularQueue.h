@@ -38,7 +38,7 @@ public:
     
     bool Push(T data) {
         u32 tempTail = (m_QueueTail + 1) % MAX_QUEUE_LENGTH;
-        if((tempTail == m_QueueHead))
+        if(tempTail == m_QueueHead)
             return false;
         memcpy(&m_Queue[tempTail], &data, sizeof(T));
         m_QueueTail = tempTail;
