@@ -104,18 +104,17 @@ int main(int argc, const char * argv[])
 //    while(Queue.Pop(popData)) {
 //        std::cout << popData.data1 << std::endl;
 //    }
-//    class CDataMP : public MemoryPool<CDataMP> {
-//    private:
-//        char a[1024];
-//        char b[1024];
-//    };
-//    
+    class CDataMP : public MemoryPool<CDataMP> {
+    private:
+        char a[1024];
+        char b[1024];
+    };
+//
 //    time_t t1, t2, t3;
 //    time(&t1);
-//    for(int i = 0; i < 100000000; ++i) {
-//        CDataMP *pData = new CDataMP();
-//        delete pData;
-//    }
+    for(int i = 0; i < 1; ++i) {
+        CDataMP *pData = new CDataMP();
+    }
 //    time(&t2);
 //    std::cout << t2 - t1 << std::endl;
 //    
