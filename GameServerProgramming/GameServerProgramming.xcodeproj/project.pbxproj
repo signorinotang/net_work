@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF0B810419AE0F9000F3D07C /* Crypt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF0B810219AE0F9000F3D07C /* Crypt.cpp */; };
 		AF52FB6F199A3AF3002C8E5D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF52FB6E199A3AF3002C8E5D /* main.cpp */; };
 		AF52FB80199A4A45002C8E5D /* Stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF52FB7E199A4A45002C8E5D /* Stream.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF0B810219AE0F9000F3D07C /* Crypt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Crypt.cpp; sourceTree = "<group>"; };
+		AF0B810319AE0F9000F3D07C /* Crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crypt.h; sourceTree = "<group>"; };
+		AF0B810619AE3A7F00F3D07C /* MemoryLeak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryLeak.h; sourceTree = "<group>"; };
 		AF11936719A0AF8400E2A07E /* Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
 		AF11936819A0B77D00E2A07E /* MemoryPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryPool.h; sourceTree = "<group>"; };
 		AF52FB6B199A3AF3002C8E5D /* GameServerProgramming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GameServerProgramming; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +75,9 @@
 				AF52FB7A199A3CA8002C8E5D /* type.h */,
 				AF11936719A0AF8400E2A07E /* Log.h */,
 				AF11936819A0B77D00E2A07E /* MemoryPool.h */,
+				AF0B810219AE0F9000F3D07C /* Crypt.cpp */,
+				AF0B810319AE0F9000F3D07C /* Crypt.h */,
+				AF0B810619AE3A7F00F3D07C /* MemoryLeak.h */,
 			);
 			path = GameServerProgramming;
 			sourceTree = "<group>";
@@ -127,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF52FB6F199A3AF3002C8E5D /* main.cpp in Sources */,
+				AF0B810419AE0F9000F3D07C /* Crypt.cpp in Sources */,
 				AF52FB80199A4A45002C8E5D /* Stream.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,6 +166,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					_DEBUG,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
